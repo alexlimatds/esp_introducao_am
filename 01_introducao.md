@@ -9,16 +9,67 @@ Ciência da computação: estruturas de dados, algoritmos e linguagens de progra
 O que é comportamento inteligente? Quanto da inteligência é desenvolvido ao longo da vida e o quanto é inato? Como o conhecimento é codificado pelo cérebro? É possível 
 criar um computador inteligente, ou uma entidade inteligente requer as experiências sensoriais vividas por uma entidade biológica?
 
-A inteligência artificial é uma disciplina jovem e suas considerações e métodos ainda não estão completamente definidos. Ela está mais preocupada com a expansão das 
+A inteligência artificial (IA) é uma disciplina jovem e suas considerações e métodos ainda não estão completamente definidos. Ela está mais preocupada com a expansão das 
 capacidades da ciência da computação do que com a definiçãod de seus limites. (Luger, 2013)
+
+Essas são algumas subáreas e/ou técnicas relacionadas com a IA:
+
+- *Lógica fuzzy*: é uma forma de lógica que trabalha com graus de verdade, e não apenas com "sim" ou "não". Ela é útil para lidar com situações vagas, imprecisas ou aproximadas,
+  como "quente", "alto" ou "muito rápido".
+- *Sistema multiagentes*: conjunto de agentes autônomos que interagem entre si para resolver um problema ou executar tarefas coletivas. Cada agente pode perceber o ambiente, tomar decisões e cooperar ou competir com outros agentes.
+- *Raciocínio probabilístico*: abordagem que usa probabilidades para representar incerteza e tomar decisões com base em evidências incompletas. É comum em diagnóstico, previsão e sistemas de decisão.
+- *Robótica*: área que estuda o projeto, construção e controle de robôs. Ela combina sensores, atuadores, controle e inteligência computacional para permitir que máquinas realizem tarefas no mundo físico.
+- *Sistemas especialistas*: são programas que procuram reproduzir o conhecimento e o raciocínio de especialistas humanos em um domínio específico. Normalmente
+  usam uma base de conhecimento e regras de inferência para apoiar diagnósticos e decisões.
+- *Processamento de linguagem natural*: subárea da inteligência artificial que permite que computadores entendam, interpretem e gerem linguagem humana. É usada em
+  tradutores automáticos, chatbots, análise de sentimentos e assistentes virtuais. Tem se beneficiado diretamente dos avanços em deep learning.
+- *Aprendizado de máquina*: ramo da inteligência artificial em que os sistemas aprendem padrões a partir de dados, em vez de depender só de regras explícitas. É usado em classificação, previsão, recomendação e reconhecimento de padrões.
+- *Visão computacional*: campo que desenvolve métodos para que computadores interpretem imagens e vídeos. Seu objetivo é reconhecer objetos, extrair informações visuais e
+  compreender cenas automaticamente. É outra subárea que tem se beneficiado dos avanços em deep learning.
+- *Deep learning*: ou aprendizado profundo, é uma subárea baseada em modelos de redes neurais artificiais. Está diretamente relacionada ao advento dos grandes
+  modelos de linguagem (LLM), tais como o GPT, e do atual furor das aplicações de IA.
+
+<img width="1024" height="559" alt="image" src="https://github.com/user-attachments/assets/b9e2fdd0-dcb6-404b-8b2d-2f75ab6ee817" />
+Fonte: Gemini.
 
 ### Histórico
 
-O termo **Inteligência Artificial** (IA) surgiu na escola de verão realizada no Dartmouth College, nos Estados Unidos, em 1956 e foi definido como "a ciência e a engenharia 
+O termo **Inteligência Artificial** surgiu na escola de verão realizada no Dartmouth College, nos Estados Unidos, em 1956 e foi definido como "a ciência e a engenharia 
 de criar máquinas inteligentes". Esse evento reuniu um grupo de pesquisadores por oito semanas, o qual é considerado o início formal
 da IA como área de estudo (Faceli, 2025). No entanto, vários desenvolvimentos da IA usam conhecimento desenvolvido anteriormente tais como a teoria 
-dos grafos (Leonhard Euler, sećulo XVIII), álgebra booleana (George Boole, século XIX), cáculo de predicados de primeira ordem 
+dos grafos (Leonhard Euler, sećulo XVIII), álgebra booleana (George Boole, século XIX) e cálculo de predicados de primeira ordem 
 (Gottlob Frege, século XIX).
+
+**Linha do tempo simplificada**
+
+- 1943: McCulloch and Pitts propõem o primeiro modelo matemático de neurônio artificial.
+- 1950: teste de Turing.
+- 1951: primeiros programas funcionais de IA. Um jogador de damas por Strachey e um jogador de xadrez por Prinz.
+- 1956: escola de verão do Dartmouth College.
+- 1957: Rosenblatt simula o perceptron em um computador IBM 704.
+- 1958: criação da linguagem Lisp.
+- 1965: chatbot ELIZA.
+- 1969: trabalho de Minsky e Papert sobre as limitações do Perceptron.
+- 1970: publicação do método backpropagation para o treinamento de percpetrons multicamadas.
+- 1972: criação da linguagem Prolog.
+- 1974: tese de Ted Shortliffe sobre abordagem de diagnósticos médicos baseada em regras, a qual influenciou o desenvolvimento de sistemas especialistas.
+- Anos 1980: primeiros sistemas especialistas comerciais. Popularização das redes neurais e do método backpropagation.
+- Início dos anos 1990: TD-Gammon, um programa de IA capaz de competir com os melhores jogadores mundiais de gamão.
+- 1997: Deep Blue vence Garry Kasparov.
+- 2011: IBM Watson é campeão da competição Jeopardy!.
+- 2012: AlexNet é o primeiro modelo de deep learning a vencer uma famosa competição de visão computacional.
+- 2016: AlphaGo vence o mega campeão Lee Sedol.
+- 2017: publicação da arquitetura Transformers de redes neurais.
+- 2022: Lançamento do ChatGPT.
+- 2023: Lançamento do Gemini.
+- 2026: problemas matemática sem solução há mais de 60 anos são solucionados com o auxílio de IA.
+- julho de 2026: um modelo da OpenAI escapa do seu ambiente restrito e realizar um ataque contra a empresa Hugging Face.
+
+<img width="366" height="546" alt="image" src="https://github.com/user-attachments/assets/45915bbb-de82-4d40-91ae-bea836f70526" />
+
+O futuro?
+
+Lista completa disponível em https://en.wikipedia.org/wiki/Timeline_of_artificial_intelligence
 
 ## Referências
 
