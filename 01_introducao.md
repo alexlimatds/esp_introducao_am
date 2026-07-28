@@ -4,13 +4,16 @@
 
 "**Inteligência artificial** é o ramo da ciência da computação que se ocupa da automação do comportamento inteligente." (Luger, 2013)
 
-Ciência da computação: estruturas de dados, algoritmos e linguagens de programação.
-
 O que é comportamento inteligente? Quanto da inteligência é desenvolvido ao longo da vida e o quanto é inato? Como o conhecimento é codificado pelo cérebro? É possível 
 criar um computador inteligente, ou uma entidade inteligente requer as experiências sensoriais vividas por uma entidade biológica?
 
 A inteligência artificial (IA) é uma disciplina jovem e suas considerações e métodos ainda não estão completamente definidos. Ela está mais preocupada com a expansão das 
-capacidades da ciência da computação do que com a definiçãod de seus limites. (Luger, 2013)
+capacidades da ciência da computação do que com a definição de seus limites. (Luger, 2013)
+
+A IA é uma área multidisciplinar que abrange campos como ciência da computação, estatística, engenharia de hardware e de software, linguística, neurociência e filosofia. 
+As metas tradicionais da investigação em IA englobam o raciocínio, a representação de conhecimento, o planeamento, a aprendizagem, o processamento de linguagem natural, 
+a perceção e o suporte à robótica. A longo prazo, destaca-se o desenvolvimento da inteligência geral — a capacidade de uma máquina realizar qualquer tarefa humana com um 
+nível de eficiência pelo menos equivalente. (Wikipédia, 2026)
 
 Essas são algumas subáreas e/ou técnicas relacionadas com a IA:
 
@@ -26,7 +29,7 @@ Essas são algumas subáreas e/ou técnicas relacionadas com a IA:
 - *Aprendizado de máquina*: ramo da inteligência artificial em que os sistemas aprendem padrões a partir de dados, em vez de depender só de regras explícitas. É usado em classificação, previsão, recomendação e reconhecimento de padrões.
 - *Visão computacional*: campo que desenvolve métodos para que computadores interpretem imagens e vídeos. Seu objetivo é reconhecer objetos, extrair informações visuais e
   compreender cenas automaticamente. É outra subárea que tem se beneficiado dos avanços em deep learning.
-- *Deep learning*: ou aprendizado profundo, é uma subárea baseada em modelos de redes neurais artificiais. Está diretamente relacionada ao advento dos grandes
+- *Deep learning*: ou aprendizado profundo, é uma subárea do aprendizado de máquina baseada em modelos de redes neurais artificiais. Está diretamente relacionada ao advento dos grandes
   modelos de linguagem (LLM), tais como o GPT, e do atual furor das aplicações de IA.
 
 <img width="1024" height="559" alt="image" src="https://github.com/user-attachments/assets/b9e2fdd0-dcb6-404b-8b2d-2f75ab6ee817" />
@@ -46,7 +49,7 @@ dos grafos (Leonhard Euler, sećulo XVIII), álgebra booleana (George Boole, sé
 - 1950: teste de Turing.
 - 1951: primeiros programas funcionais de IA. Um jogador de damas por Strachey e um jogador de xadrez por Prinz.
 - 1956: escola de verão do Dartmouth College.
-- 1957: Rosenblatt simula o perceptron em um computador IBM 704.
+- 1957: Rosenblatt simula o perceptron (neurônio artificial) em um computador IBM 704.
 - 1958: criação da linguagem Lisp.
 - 1965: chatbot ELIZA.
 - 1969: trabalho de Minsky e Papert sobre as limitações do Perceptron.
@@ -62,7 +65,7 @@ dos grafos (Leonhard Euler, sećulo XVIII), álgebra booleana (George Boole, sé
 - 2017: publicação da arquitetura Transformers de redes neurais.
 - 2022: Lançamento do ChatGPT.
 - 2023: Lançamento do Gemini.
-- 2026: problemas matemática sem solução há mais de 60 anos são solucionados com o auxílio de IA.
+- 2026: problemas matemáticos sem solução há mais de 60 anos são solucionados com o auxílio de IA.
 - julho de 2026: um modelo da OpenAI escapa do seu ambiente restrito e realizar um ataque contra a empresa Hugging Face.
 
 <img width="366" height="546" alt="image" src="https://github.com/user-attachments/assets/45915bbb-de82-4d40-91ae-bea836f70526" />
@@ -71,7 +74,34 @@ O futuro?
 
 Lista completa disponível em https://en.wikipedia.org/wiki/Timeline_of_artificial_intelligence
 
+## IA Simbólica e IA Conexionista
+
+A IA simbólica e a IA conexionista representam duas formas distintas de modelar a inteligência artificial. Na **IA simbólica**, o conhecimento 
+é geralmente codificado por especialistas em regras do tipo “se... então...”, o que facilita a explicação de decisões e o 
+controle do sistema. Seu principal ponto fraco é a dificuldade de lidar com situações muito complexas, ambíguas ou com grande volume de dados, além de 
+depender bastante de conhecimento previamente estruturado. Um exemplo que tende a ser melhor resolvido por IA simbólica é a prova automática de 
+teoremas ou resolução de problemas de lógica, porque esse tipo de tarefa exige regras explícitas, manipulação formal de símbolos e passos de inferência bem definidos.
+Já na **IA conexionista**, o sistema aprende padrões a partir de grandes volumes de dados ou exemplos, sendo 
+mais flexível e eficiente em tarefas como reconhecimento de imagem, voz e previsão, embora muitas vezes seja menos transparente e mais difícil de interpretar.
+
+Assim, a principal diferença entre elas está na forma de adquirir e representar conhecimento: a IA simbólica privilegia lógica e clareza, enquanto a conexionista 
+privilegia adaptação e aprendizado automático. Como limitação, a abordagem simbólica tende a ser rígida e pouco escalável em problemas reais complexos, enquanto a 
+conexionista pode exigir muitos dados e recursos computacionais, além de oferecer menor explicabilidade.
+
+## IA Neurosimbólica
+
+A IA neurossimbólica busca combinar o aprendizado estatístico das redes neurais com o raciocínio explícito da IA simbólica, tentando unir reconhecimento de padrões, 
+capacidade de generalização e explicabilidade. O objetivo é construir sistemas que não apenas aprendem com dados, mas também conseguem representar regras, relações e 
+inferências de forma mais interpretável. Esse é um tema de pesquisa em forte expansão e é tratado como uma das linhas mais promissoras para tornar a IA mais confiável, robusta e eficiente. 
+
+AlphaGeometry é um programa de IA da DeepMind criado para resolver problemas difíceis de geometria euclidiana. Em sua parte neural, ele usa um modelo de linguagem 
+treinado em dados sintéticos de provas geométricas para sugerir caminhos promissores de raciocínio. Na parte simbólica, ele emprega um motor de dedução baseado em 
+regras formais para construir provas rigorosas e verificáveis. A primeira versão do programa conseguiu resolver 25 das 30 questões de uma prova da Olimpíada Internacional 
+de Matemática, sob as mesmas regras de tempo da competição. Esse desempenho foi quase tão bom quanto o desempenho médio de um medalhista de ouro da competição. 
+Anteriormente, o melhor programa era capaz de resolver apenas 10 questões da prova.
+
 ## Referências
 
 - George F. Luger. **Inteligência Artificial**, 6ª ed. São Paulo: Pearson, 2013.
 - Katti Faceli, Ana Carolina Lorena, João Gama A. de Almeida, André C. P. L. F. de Carvalho. **Inteligência Artificial**: uma abordagem de aprendizado de máquina, 3ª ed. Rio de Janeiro: LTC, 2025.
+- Wikipédia. **Inteligência artificial**. Disponível em <https://pt.wikipedia.org/wiki/Intelig%C3%AAncia_artificial>. Acesso em 28/07/2026.
