@@ -13,7 +13,7 @@ capacidades da ciência da computação do que com a definição de seus limites
 A IA é uma área multidisciplinar que abrange campos como ciência da computação, estatística, engenharia de hardware e de software, linguística, neurociência e filosofia. 
 As metas tradicionais da investigação em IA englobam o raciocínio, a representação de conhecimento, o planeamento, a aprendizagem, o processamento de linguagem natural, 
 a perceção e o suporte à robótica. A longo prazo, destaca-se o desenvolvimento da inteligência geral — a capacidade de uma máquina realizar qualquer tarefa humana com um 
-nível de eficiência pelo menos equivalente. (Wikipédia, 2026)
+nível de eficiência pelo menos equivalente. (Wikipédia, 2026a)
 
 Essas são algumas subáreas e/ou técnicas relacionadas com a IA:
 
@@ -32,8 +32,7 @@ Essas são algumas subáreas e/ou técnicas relacionadas com a IA:
 - *Deep learning*: ou aprendizado profundo, é uma subárea do aprendizado de máquina baseada em modelos de redes neurais artificiais. Está diretamente relacionada ao advento dos grandes
   modelos de linguagem (LLM), tais como o GPT, e do atual furor das aplicações de IA.
 
-<img width="1024" height="559" alt="image" src="https://github.com/user-attachments/assets/b9e2fdd0-dcb6-404b-8b2d-2f75ab6ee817" />
-Fonte: Gemini.
+<img width="999" height="639" alt="image" src="https://github.com/user-attachments/assets/e6cf61a3-0f0b-4265-8189-88d3b2d6cb0a" />
 
 ### Histórico
 
@@ -66,7 +65,7 @@ dos grafos (Leonhard Euler, sećulo XVIII), álgebra booleana (George Boole, sé
 - 2022: Lançamento do ChatGPT.
 - 2023: Lançamento do Gemini.
 - 2026: problemas matemáticos sem solução há mais de 60 anos são solucionados com o auxílio de IA.
-- julho de 2026: um modelo da OpenAI escapa do seu ambiente restrito e realizar um ataque contra a empresa Hugging Face.
+- julho de 2026: um modelo da OpenAI escapa do seu ambiente restrito e realiza um ataque contra a empresa Hugging Face.
 
 <img width="366" height="546" alt="image" src="https://github.com/user-attachments/assets/45915bbb-de82-4d40-91ae-bea836f70526" />
 
@@ -74,7 +73,7 @@ O futuro?
 
 Lista completa disponível em https://en.wikipedia.org/wiki/Timeline_of_artificial_intelligence
 
-## IA Simbólica e IA Conexionista
+### IA Simbólica e IA Conexionista
 
 A IA simbólica e a IA conexionista representam duas formas distintas de modelar a inteligência artificial. Na **IA simbólica**, o conhecimento 
 é geralmente codificado por especialistas em regras do tipo “se... então...”, o que facilita a explicação de decisões e o 
@@ -88,7 +87,7 @@ Assim, a principal diferença entre elas está na forma de adquirir e representa
 privilegia adaptação e aprendizado automático. Como limitação, a abordagem simbólica tende a ser rígida e pouco escalável em problemas reais complexos, enquanto a 
 conexionista pode exigir muitos dados e recursos computacionais, além de oferecer menor explicabilidade.
 
-## IA Neurosimbólica
+### IA Neurosimbólica
 
 A IA neurossimbólica busca combinar o aprendizado estatístico das redes neurais com o raciocínio explícito da IA simbólica, tentando unir reconhecimento de padrões, 
 capacidade de generalização e explicabilidade. O objetivo é construir sistemas que não apenas aprendem com dados, mas também conseguem representar regras, relações e 
@@ -100,8 +99,27 @@ regras formais para construir provas rigorosas e verificáveis. A primeira vers�
 de Matemática, sob as mesmas regras de tempo da competição. Esse desempenho foi quase tão bom quanto o desempenho médio de um medalhista de ouro da competição. 
 Anteriormente, o melhor programa era capaz de resolver apenas 10 questões da prova.
 
+### IA estreita, IA de Propósito Geral e Singularidade
+
+**IA estreita**, também chamada de IA fraca ou limitada, é uma solução projetada para tarefas específicas e, portanto, não é capaz de atuar em problemas para os quais 
+ela não foi projetada. Todas as soluções atuais enquadram-se nesta categoria, incluindo os modelos multimodais. Por outro lado, **IA de propósito geral** (*Artificial General Intelligence* - AGI, em inglês) 
+refere-se uma IA com a habilidade de compreender, aprender e adaptar-se a diferentes contextos e desafios de forma autônoma. Trata-se de soluções com versatilidade cognitiva 
+semelhante à humana (Wikipédia, 2026a). A **singularidade da IA** é o momento futuro em que a inteligência artificial vai superar a inteligência humana por meio da criação 
+rápida de versões ainda mais inteligentes de si mesma e mudar a civilização de um jeito que não podemos prever (Wikipédia, 2026b).
+
+## Aprendizado de Máquina
+
+AM vs programação por regras
+
+Definição de modelo
+
+Exemplos de algoritmos de AM
+
+Exemplos de aplicações
+
 ## Referências
 
 - George F. Luger. **Inteligência Artificial**, 6ª ed. São Paulo: Pearson, 2013.
 - Katti Faceli, Ana Carolina Lorena, João Gama A. de Almeida, André C. P. L. F. de Carvalho. **Inteligência Artificial**: uma abordagem de aprendizado de máquina, 3ª ed. Rio de Janeiro: LTC, 2025.
 - Wikipédia. **Inteligência artificial**. Disponível em <https://pt.wikipedia.org/wiki/Intelig%C3%AAncia_artificial>. Acesso em 28/07/2026.
+- Wikipédia. **Singularidade tecnológica**. Disponível em <https://pt.wikipedia.org/wiki/Singularidade_tecnol%C3%B3gica>. Acesso em 30/07/2026.
