@@ -172,19 +172,37 @@ Segue uma pequena lista de sites que disponibilizam datasets para treinamento de
 
 ### Tarefas de aprendizado
 
-hierarquia clássica de aprendizado.
+Algoritmos e modelos de aprendizado de máquina podem ser utilizados em diferentes tarefas, as quais podem ser organizadas segundo a hierarquia da figura abaixo (Faceli, 2025).
 
-Tarefas preditivas e aprendizado supervisionado: regressão e classificação.
+<img width="1376" height="477" alt="image" src="https://github.com/user-attachments/assets/1fb5c38f-0087-46a7-a272-df9191bc7e9d" />
 
-Tarefas descritivas e aprendizado não supervisionado: agrupamento, associação e sumarização.
+As **tarefas preditivas** fazem parte do **aprendizado supervisionado**, no qual o modelo é treinado com dados rotulados para aprender a prever saídas para dados não vistos 
+durante o treinamento. A tarefa de **regressão** tem como objetivo prever um valor numérico tal como o preço de uma casa com base em metragem, localização e número de quartos, 
+ou prever a temperatura de uma cidade com base em variáveis climáticas. 
+A tarefa de **classificação** objetiva atribuir uma classe, ou categorias, para uma instância de entrada. Um exemplo seria usar o texto de um e-mail como entrada do modelo e este
+classificaria o e-mail como span ou não. 
 
-Outras tarefas de aprendizado: aprendizado semissupervisionado, aprendizado ativo, aprendizado por reforço e IA generativa.
+As **tarefas descritivas** estão relacionadas ao aprendizado não supervisionado, no qual o objetivo é identificar padrões presentes nos atributos dos dados de entrada. 
+A tarefa de **agrupamento** (*clustering*) visa organizar objetos semelhantes em grupos (*clusters*), a **associação**, busca relações frequentes entre itens, e a 
+**sumarização** resume ou simplifica a estrutura dos dados. Um exemplo de agrupamento é a segmentação de clientes de um e-commerce em grupos com comportamentos parecidos; 
+um exemplo de associação é descobrir que clientes que compram pão também costumam comprar leite; e um exemplo de sumarização é gerar um resumo automático de um texto longo, 
+reduzindo-o a uma versão mais curta e informativa.
+
+Além dessas categorias principais, existem outras formas de aprendizado, como o semissupervisionado, o aprendizado ativo, o aprendizado por reforço e a IA generativa. O 
+semissupervisionado combina poucos dados rotulados com muitos não rotulados; o aprendizado ativo escolhe exemplos para serem rotulados por um especialista; o reforço aprende 
+por tentativa e erro com recompensas; e a IA generativa cria novos conteúdos, como textos, imagens, músicas ou código.
 
 ### Indução de modelos
 
-Aprendizado e generalização. Memorização vs generalização.
+No aprendizado de máquina, os modelos são treinados com base no princípio da indução, ou seja, identificar relações gerais a partir de exemplos específicos. Em outras palavras, o 
+algoritmo observa dados de treinamento e constrói um modelo capaz de prever ou classificar novos casos, indo do particular para o geral. Esse processo está diretamente ligado à 
+**generalização**, que é a capacidade de o modelo funcionar bem em dados que não viu antes. O ideal é evitar a **memorização**, quando o modelo apenas decora os exemplos de treino. 
+A memorização costuma causar **overfitting** (sobreajuste), isto é, bom desempenho no treinamento e ruim em dados novos. No extremo oposto está o **underfitting** (subajuste), 
+quando o modelo é simples demais e não aprende os padrões relevantes, errando tanto no treino quanto no teste.
 
-Overfitting e underfiting.
+<img width="811" height="429" alt="image" src="https://github.com/user-attachments/assets/f7d7388e-e538-49a6-a40c-2a7b86ff050b" />
+
+Fonte: https://la.mathworks.com/discovery/overfitting.html
 
 ## Referências
 
