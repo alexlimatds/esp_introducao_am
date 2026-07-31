@@ -102,20 +102,89 @@ Anteriormente, o melhor programa era capaz de resolver apenas 10 questões da pr
 ### IA estreita, IA de Propósito Geral e Singularidade
 
 **IA estreita**, também chamada de IA fraca ou limitada, é uma solução projetada para tarefas específicas e, portanto, não é capaz de atuar em problemas para os quais 
-ela não foi projetada. Todas as soluções atuais enquadram-se nesta categoria, incluindo os modelos multimodais. Por outro lado, **IA de propósito geral** (*Artificial General Intelligence* - AGI, em inglês) 
-refere-se uma IA com a habilidade de compreender, aprender e adaptar-se a diferentes contextos e desafios de forma autônoma. Trata-se de soluções com versatilidade cognitiva 
+ela não foi projetada. Todas as soluções atuais de IA enquadram-se nesta categoria, incluindo os modelos multimodais. Por outro lado, **IA de propósito geral** (*Artificial General Intelligence* - AGI, em inglês) 
+refere-se a uma IA com a habilidade de compreender, aprender e adaptar-se a diferentes contextos e desafios de forma autônoma. Trata-se de soluções com versatilidade cognitiva 
 semelhante à humana (Wikipédia, 2026a). A **singularidade da IA** é o momento futuro em que a inteligência artificial vai superar a inteligência humana por meio da criação 
 rápida de versões ainda mais inteligentes de si mesma e mudar a civilização de um jeito que não podemos prever (Wikipédia, 2026b).
 
 ## Aprendizado de Máquina
 
-AM vs programação por regras
+**Aprendizado de máquina** (Machine Learning) é uma área da IA em que sistemas aprendem padrões a partir de dados para fazer previsões ou decisões, em vez de depender apenas de instruções fixas. 
+Isso difere da programação tradicional, na qual o programador escreve explicitamente as regras que o sistema deve seguir; no aprendizado de máquina, as regras são inferidas pelos 
+dados durante o treinamento. Um **modelo de aprendizado de máquina** é o resultado desse processo de treinamento: um algoritmo ajusta os parâmetros internos do modelo de forma que 
+o modelo consiga capturar relações nos dados e depois use esse conhecimento em novos exemplos (generalização). Por isso, os dados são essenciais, porque a qualidade, a quantidade 
+e a variedade do conjunto de treinamento influenciam diretamente o desempenho do modelo.
 
-Definição de modelo
+<img width="1375" height="1031" alt="image" src="https://github.com/user-attachments/assets/b06013c8-921c-46d1-a899-5bc9069e9d3a" />
 
-Exemplos de algoritmos de AM
+<img width="1375" height="1031" alt="image" src="https://github.com/user-attachments/assets/72ec85db-d074-4437-9c5b-01195003eb4b" />
 
-Exemplos de aplicações
+Fonte: https://www.upgrad.com/blog/traditional-programming-vs-machine-learning/
+
+O aprendizado de máquina costuma ser melhor do que a programação tradicional em tarefas em que é difícil escrever regras fixas, como reconhecimento de imagens, detecção de fraudes, 
+recomendação de produtos e processamento de linguagem natural, porque ele aprende padrões diretamente dos dados e pode se adaptar quando o comportamento do problema muda ao longo do tempo. 
+Por outro lado, suas desvantagens incluem forte dependência de dados de boa qualidade, risco de viés, menor transparência na tomada de decisão e necessidade de maior poder computacional e 
+de especialistas para treinar, ajustar e manter os modelos.
+
+Alguns exemplos de algoritmos e modelos são a regressão linear, as árvores de decisão e as redes neurais. A regressão linear pode ser usada para prever valores, como demanda de vendas 
+ou temperatura; as árvores de decisão são úteis em tarefas de classificação e tomada de decisão transparente, como aprovação de crédito ou segmentação de clientes; e redes neurais são comuns em 
+aplicações como reconhecimento de imagem, diagnóstico por imagem e assistentes de voz.
+
+### Dados
+
+No contexto de aprendizado de máquina, os **dados** são a base do treinamento e do desempenho de um modelo, porque é a partir deles que o sistema aprende padrões e relações. Em geral, 
+quanto mais representativos, consistentes e relevantes forem os dados, maior tende a ser a capacidade do modelo de generalizar e resolver novas situações.
+
+Os **dados estruturados** são organizados em um formato fixo, normalmente em tabelas, nas quais cada **objeto** ocupa uma linha e cada **atributo** ocupa uma coluna, formando uma espécie 
+de tabela atributo-valor. Os objetos também são chamados de instâncias ou vetores, os atributos podem ser chamados de variáveis e a tabela atributo-valor é comumente denominada de dataset. 
+O **atributo-alvo** é a variável que se deseja prever ou classificar, enquanto os **atributos preditivos** são as informações usadas para fazer essa previsão; por exemplo, em um conjunto 
+sobre clientes, o alvo pode ser “inadimplente” e os atributos preditivos podem incluir renda, idade e histórico de compras.
+
+Como exemplo de conjunto de dados estruturados, considere a tabela a seguir contendo dados financeiros de clientes que contrairam um empréstimo financeiro, sendo que cada linha da 
+tabela representa um cliente individual. Os atributos preditivos são as colunas idade, renda mensal, tempo de emprego, valor da dívida, taxa de endividamento, enquanto que a coluna inadimplente 
+representa o atributo-alvo. Este dataset poderia ser utilizado para treinar um modelo que determinasse o potencial de inadiplência de futuros clientes.
+
+| Idade | Renda mensal (R$) | Tempo de emprego (anos) | Valor da dívida (R$) | Taxa de endividamento (%) | Inadimplente |
+|---:|---:|---:|---:|---:|---|
+| 25 | 2500 | 1 | 5000 | 40 | Sim |
+| 32 | 4200 | 4 | 3000 | 25 | Não |
+| 45 | 6800 | 10 | 12000 | 55 | Não |
+| 29 | 3100 | 2 | 7000 | 48 | Sim |
+| 52 | 9000 | 18 | 8000 | 20 | Não |
+
+Os **dados não estruturados** não seguem um esquema fixo e incluem conteúdos como textos livres, imagens, áudios, vídeos e páginas da web, sendo muito comuns em aplicações reais e, ao mesmo tempo, 
+mais difíceis de analisar diretamente.
+
+Como muitos algoritmos trabalham melhor com números, dados não-numéricos precisam ser codificados em um formato numérico. Este processo pode incluir a conversão simbólico-numérica, tais 
+como a codificação de categorias em números, e a **extração de características**, que visa obter descobrir e codificar propriedades relevantes dos dados. A extração de características  
+pode ser guiada por conhecimento do domínio ou pode ser realizada pelo próprio modelo, como é o caso de muitos modelos de deep learning. Um exemplo de extração de características baseada 
+no conhecimneto do domínio seria a incorporação do índice de massa corporal (IMC) a partir do peso e da altura do paciente presentes em um dataset de uma aplicação de diagnóstico médico. 
+Essa extração usa conhecimento do domínio porque o IMC não aparece diretamente nos dados brutos, mas é uma medida clinicamente útil e pode ajudar um modelo a identificar melhor riscos de 
+saúde.
+
+Segue uma pequena lista de sites que disponibilizam datasets para treinamento de modelos:
+
+- [Kaggle](https://www.kaggle.com/datasets) — reúne milhares de conjuntos de dados públicos para treino, teste e análise de modelos.
+- [UCI Machine Learning Repository](https://archive.ics.uci.edu/) — repositório clássico com datasets muito usados em pesquisa e aprendizado de máquina.
+- [Google Dataset Search](https://datasetsearch.research.google.com/) — ferramenta de busca para encontrar datasets espalhados pela web.
+- [OpenML](https://www.openml.org/) — plataforma voltada para compartilhamento de datasets, tarefas e experimentos em machine learning.
+- [Hugging Face](https://huggingface.co/datasets) — plataforma com uma grande coleção de datasets prontos para uso em tarefas de IA, como NLP, áudio e visão computacional.
+
+### Tarefas de aprendizado
+
+hierarquia clássica de aprendizado.
+
+Tarefas preditivas e aprendizado supervisionado: regressão e classificação.
+
+Tarefas descritivas e aprendizado não supervisionado: agrupamento, associação e sumarização.
+
+Outras tarefas de aprendizado: aprendizado semissupervisionado, aprendizado ativo, aprendizado por reforço e IA generativa.
+
+### Indução de modelos
+
+Aprendizado e generalização. Memorização vs generalização.
+
+Overfitting e underfiting.
 
 ## Referências
 
