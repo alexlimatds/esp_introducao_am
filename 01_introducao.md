@@ -192,6 +192,10 @@ Além dessas categorias principais, existem outras formas de aprendizado, como o
 semissupervisionado combina poucos dados rotulados com muitos não rotulados; o aprendizado ativo escolhe exemplos para serem rotulados por um especialista; o reforço aprende 
 por tentativa e erro com recompensas; e a IA generativa cria novos conteúdos, como textos, imagens, músicas ou código.
 
+<img width="1400" height="600" alt="image" src="https://github.com/user-attachments/assets/e4f31c98-d669-4742-a7db-e6fcf5b8601e" />
+
+Fonte: https://bonabestvs.click/product_details/4599334.html
+
 ### Indução de modelos
 
 No aprendizado de máquina, os modelos são treinados com base no princípio da indução, ou seja, identificar relações gerais a partir de exemplos específicos. Em outras palavras, o 
