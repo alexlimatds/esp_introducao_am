@@ -3,7 +3,7 @@ Conteúdo da disciplina de Introdução ao Aprendizado de Máquina no curso de e
 
 ## Aulas
 - [1 - Introdução ao Aprendizado de Máquina](01_introducao.md)
-- [2 - Primeiro modelo e revisão de conceitos matemáticos](02_primeiro_modelo.md)
+- [2 - Conceitos matemáticos](02_conceitos_matematicos.md)
 
 ## Recursos extras
 
