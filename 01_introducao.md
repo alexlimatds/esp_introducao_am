@@ -189,7 +189,7 @@ um exemplo de associação é descobrir que clientes que compram pão também co
 reduzindo-o a uma versão mais curta e informativa.
 
 Além dessas categorias principais, existem outras formas de aprendizado, como o semissupervisionado, o aprendizado ativo, o aprendizado por reforço e a IA generativa. O 
-semissupervisionado combina poucos dados rotulados com muitos não rotulados; o aprendizado ativo escolhe exemplos para serem rotulados por um especialista; o reforço aprende 
+semissupervisionado combina poucos dados rotulados com muitos não rotulados; o aprendizado ativo escolhe exemplos para serem rotulados por um especialista; o aprendizado por reforço aprende 
 por tentativa e erro com recompensas; e a IA generativa cria novos conteúdos, como textos, imagens, músicas ou código.
 
 <img width="1400" height="600" alt="image" src="https://github.com/user-attachments/assets/e4f31c98-d669-4742-a7db-e6fcf5b8601e" />
