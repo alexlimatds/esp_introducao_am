@@ -11,8 +11,8 @@ A inteligência artificial (IA) é uma disciplina jovem e suas considerações e
 capacidades da ciência da computação do que com a definição de seus limites. (Luger, 2013)
 
 A IA é uma área multidisciplinar que abrange campos como ciência da computação, estatística, engenharia de hardware e de software, linguística, neurociência e filosofia. 
-As metas tradicionais da investigação em IA englobam o raciocínio, a representação de conhecimento, o planeamento, a aprendizagem, o processamento de linguagem natural, 
-a perceção e o suporte à robótica. A longo prazo, destaca-se o desenvolvimento da inteligência geral — a capacidade de uma máquina realizar qualquer tarefa humana com um 
+As metas tradicionais da investigação em IA englobam o raciocínio, a representação de conhecimento, o planejamento, a aprendizagem, o processamento de linguagem natural, 
+a percepção e o suporte à robótica. A longo prazo, destaca-se o desenvolvimento da inteligência geral — a capacidade de uma máquina realizar qualquer tarefa humana com um 
 nível de eficiência pelo menos equivalente. (Wikipédia, 2026a)
 
 Essas são algumas subáreas e/ou técnicas relacionadas com a IA:
