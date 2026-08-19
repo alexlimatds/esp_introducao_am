@@ -9,4 +9,5 @@ Conteúdo da disciplina de Introdução ao Aprendizado de Máquina no curso de e
 
 ## Recursos extras
 
-- [Série de cursos da Google](https://developers.google.com/machine-learning/foundational-courses?hl=pt-br)
+- [Série de cursos sobre aprendizado de máquina da Google](https://developers.google.com/machine-learning/foundational-courses?hl=pt-br)
+- [Curso gratuito da DSA: Fundamentos de Linguagem Python - Do Básico a Aplicações de IA](https://www.datascienceacademy.com.br/course/fundamentos-de-linguagem-python-do-basico-a-aplicacoes-de-ia)
