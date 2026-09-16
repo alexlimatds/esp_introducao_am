@@ -6,6 +6,7 @@ Conteúdo da disciplina de Introdução ao Aprendizado de Máquina no curso de e
 ## Aulas
 - [1 - Introdução ao Aprendizado de Máquina](01_introducao.md)
 - [2 - Vetores e matrizes](02_vetores_e_matrizes.ipynb)
+- [3 - Classificação com K-NN](https://github.com/alexlimatds/esp_introducao_am/blob/main/03_classificacao_com_knn.ipynb)
 
 ## Recursos extras
 
