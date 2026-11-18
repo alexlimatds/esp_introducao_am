@@ -10,6 +10,7 @@ Conteúdo da disciplina de Introdução ao Aprendizado de Máquina no curso de e
 - [4 - Caracterização e pré-processamento de atributos](04_caracterizacao_e_pre_processamento_de_dados.ipynb)
 - [5 - Classificação com árvores de decisão](05_classificacao_com_arvores_de_decisao.ipynb)
 - [6 - Avaliação de modelos de classificação](06_avaliacao_de_modelos_de_classificacao.ipynb)
+- [Estudo de caso de classificação sobre um dataset desbalanceado + atividade](estudo_de_caso_wine_dataset.ipynb)
 
 ## Recursos extras
 
