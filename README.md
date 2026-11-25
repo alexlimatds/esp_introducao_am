@@ -11,6 +11,7 @@ Conteúdo da disciplina de Introdução ao Aprendizado de Máquina no curso de e
 - [5 - Classificação com árvores de decisão](05_classificacao_com_arvores_de_decisao.ipynb)
 - [6 - Avaliação de modelos de classificação](06_avaliacao_de_modelos_de_classificacao.ipynb)
 - [Estudo de caso de classificação sobre um dataset desbalanceado + atividade](estudo_de_caso_wine_dataset.ipynb)
+- [7 - Classificação com floresta aleatória](https://github.com/alexlimatds/esp_introducao_am/blob/main/07_classificacao_random_forest.ipynb)
 
 ## Recursos extras
 
